@@ -2,7 +2,7 @@
 <html lang="lo">
 <head>
     <meta charset="UTF-8">
-    <title>S2KBETLAOS - ເກມຄາສິໂນອອນລາຍ</title>
+    <title>S2K VIETNAM ⚡ Casino trực tuyến số 1 | Dễ thắng – Thanh toán nhanh</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- ฟอนต์ลาว -->
@@ -18,30 +18,39 @@
         }
 
         :root {
-            --primary-red: #990000;
-            --gold-primary: #FFD700;
-            --gold-secondary: #d4af37;
-            --dark-bg: #0d0b16;
-            --card-bg: #1a1625;
+            --primary-red: #e80d27;
+            --gold-primary: #FFD54F;
+            --gold-secondary: #D4AF37;
+            --dark-bg: #e80d27;
+            --card-bg: #e80d27;
             --glass-bg: rgba(255, 255, 255, 0.1);
             --glass-border: rgba(255, 255, 255, 0.2);
-            --text-primary: #FFD700;
+            --text-primary: #FFD54F;
             --text-secondary: rgba(255, 215, 0, 0.8);
             --shadow-primary: 0 20px 40px rgba(0, 0, 0, 0.4);
             --shadow-glass: 0 8px 32px rgba(153, 0, 0, 0.3);
-            --logo-bg-image: url('https://img2.pic.in.th/pic/20250905_0207__simple_compose_01k4b1wnveezr83vftkk93e9qe-1.png');
+            --logo-bg-image: url('https://img5.pic.in.th/file/secure-sv1/660f358c-95fb-49f4-b845-9f01a9031c28.png');
             --logo-bg-overlay: rgba(0, 0, 0, 0.35);
             --logo-bg-radius: 24px;
         }
-
+.main-title{
+  -webkit-text-stroke: 1px rgba(0,0,0,.75);     /* ขอบสำหรับ Chrome/Edge/Safari */
+  text-shadow: 0 1px 0 rgba(0,0,0,.6),           /* เผื่อ Firefox */
+               0 0 6px rgba(0,0,0,.25);
+}
         body {
-            font-family: "Noto Sans Lao", sans-serif;
-            background: linear-gradient(135deg, var(--primary-red) 0%, #660000 50%, var(--dark-bg) 100%);
-            color: var(--text-primary);
-            line-height: 1.6;
-            min-height: 100vh;
-            overflow-x: hidden;
-            position: relative;
+	    font-family: "Noto Sans Lao", sans-serif;
+  	    min-height: 100vh;
+  	    overflow-x: hidden;
+	background:
+  linear-gradient(
+    135deg,
+    rgba(232,13,39,.25),
+    rgba(10,4,4,.35),
+    rgba(232,13,39,.25)
+  ),
+  url("S2K-VN.jpg") center/cover no-repeat;
+	   background-color: #000; /* เผื่อรูปโหลดไม่ทัน */
         }
 
         /* Animated Background */
@@ -265,8 +274,18 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-            transition: left 0.5s;
+            background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(212, 175, 55, 0.25) 40%,  /* #D4AF37 ทองกลาง */
+    rgba(255, 213, 79, 0.45) 50%,  /* #FFD54F ทองสว่างกลางแถบ */
+    rgba(212, 175, 55, 0.25) 60%,
+    transparent 100%
+  );
+  transition: left .5s;
+  pointer-events:none;
+}
+.btn:hover::before{ left:120%; }
         }
 
         .btn:hover::before {
@@ -281,7 +300,7 @@
         .btn:hover {
             transform: translateY(-3px) scale(1.02);
             box-shadow: 0 15px 35px rgba(212, 175, 55, 0.6);
-            background: linear-gradient(135deg, var(--gold-primary) 0%, #ffeb3b 100%);
+            background: linear-gradient(135deg, var(--gold-primary) 0%, #ffffff 100%);
         }
 
         .btn:hover i {
@@ -294,46 +313,46 @@
 
         /* Button Colors */
         .btn-game {
-            background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+            background: linear-gradient(135deg, #d10000 0%, #d10000 100%);
             color: white;
-            box-shadow: 0 8px 25px rgba(76, 175, 80, 0.4);
+            box-shadow: 0 8px 25px rgba(255, 213, 79, 0.40); /* #FFD54F */
         }
 
         .btn-game:hover {
-            background: linear-gradient(135deg, #45a049 0%, #4CAF50 100%);
+            background: linear-gradient(135deg, #d10000 0%, #d10000 100%);
             box-shadow: 0 15px 35px rgba(76, 175, 80, 0.6);
         }
 
         .btn-whatsapp {
-            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            background: linear-gradient(135deg, #D4AF37 0%, #D4AF37 100%);
             color: white;
             box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
         }
 
         .btn-whatsapp:hover {
-            background: linear-gradient(135deg, #128C7E 0%, #25D366 100%);
+            background: linear-gradient(135deg, #D4AF37 0%, #D4AF37 100%);
             box-shadow: 0 15px 35px rgba(37, 211, 102, 0.6);
         }
 
         .btn-facebook {
-            background: linear-gradient(135deg, #1877F2 0%, #42a5f5 100%);
+            background: linear-gradient(135deg, #d10000 0%, #d10000 100%);
             color: white;
             box-shadow: 0 8px 25px rgba(24, 119, 242, 0.4);
         }
 
         .btn-facebook:hover {
-            background: linear-gradient(135deg, #42a5f5 0%, #1877F2 100%);
+            background: linear-gradient(135deg, #d10000 0%, #d10000 100%);
             box-shadow: 0 15px 35px rgba(24, 119, 242, 0.6);
         }
 
         .btn-line {
-            background: linear-gradient(135deg, #00C300 0%, #00B900 100%);
+            background: linear-gradient(135deg, #D4AF37 0%, #D4AF37 100%);
             color: white;
             box-shadow: 0 8px 25px rgba(0, 195, 0, 0.4);
         }
 
         .btn-line:hover {
-            background: linear-gradient(135deg, #00B900 0%, #00C300 100%);
+            background: linear-gradient(135deg, #D4AF37 0%, #D4AF37 100%);
             box-shadow: 0 15px 35px rgba(0, 195, 0, 0.6);
         }
 
@@ -562,31 +581,31 @@
     <div class="container">
         <!-- Enhanced Header -->
         <div class="header-section">
-            <div class="header-badge">🎰 ເກມຄາສິໂນອອນລາຍ #1</div>
-            <h1 class="main-title">S2KBETLAOS</h1>
-            <p class="subtitle">ປະສົບການເກມຄາສິໂນທີ່ດີທີ່ສຸດໃນລາວ</p>
+            <div class="header-badge">Casino trực tuyến số 1</div>
+            <h1 class="main-title">Chào mừng bạn đến với trang web lớn nhất tại Việt Nam</h1>
+            <p class="subtitle">Trải nghiệm casino tốt nhất tại Việt Nam</p>
         </div>
 
         <!-- Enhanced Product Card -->
         <div class="product-card fade-in">
             <div class="logo-area">
-                <img src="https://img2.pic.in.th/pic/S2K282-1.png" alt="S2KBETLAOS">
+                <img src="https://img5.pic.in.th/file/secure-sv1/-30b2397c8397ac032.png" alt="S2K-Vietnam">
             </div>
             
             <!-- Enhanced Call-to-Action Buttons -->
-            <a href="https://stwokl.github.io/s2klaos/" class="btn btn-game">
-                <i class="fa-solid fa-play"></i> ຊ່ອງທາງເຂົ້າຫລີ້ນ
+            <a href="http://s2kbet-vn.com/" class="btn btn-game">
+                <i class="fa-solid fa-play"></i> Cổng vào chơi
             </a>
 
-            <a href="https://wa.me/+8562091021976" class="btn btn-whatsapp">
-                <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            <a href="https://zalo.me/+8562054295433" class="btn btn-whatsapp">
+                <i class="fa-solid fa-comment"></i> ZALO
             </a>
 
-            <a href="https://bit.ly/FBs2klao" class="btn btn-facebook">
+            <a href="https://www.facebook.com/groups/1299576187776405" class="btn btn-facebook">
                 <i class="fab fa-facebook"></i> Facebook
             </a>
 
-            <a href="https://bit.ly/LINES2K" class="btn btn-line">
+            <a href="https://lin.ee/RAWYDR9" class="btn btn-line">
                 <i class="fab fa-line"></i> LINE
             </a>
         </div>
@@ -594,9 +613,9 @@
         <!-- Enhanced Video Section -->
         <div class="video-section fade-in">
             <div class="video-container">
-                <h2 class="video-title">🎬 ວິດີໂອແນະນຳ</h2>
-                <iframe src="https://www.youtube.com/embed/5eTN9pIeeW8?si=VzskAn-dc8zXSxRd" 
-                        title="S2KBETLAOS Video" 
+                <h2 class="video-title">🎬 Video giới thiệu</h2>
+                <iframe src="https://www.youtube.com/embed/-Gs8v1wMg_U?si=mR7FmZ_50Jv_pQGI" 
+                        title="S2K-Vietnam Video" 
                         allowfullscreen>
                 </iframe>
             </div>
@@ -605,16 +624,16 @@
         <!-- Enhanced Image Section -->
         <div class="image-section fade-in">
             <div class="image-container">
-                <h2 class="image-title">🏆 ຮູບພາບເກມ</h2>
-                <img src="https://img2.pic.in.th/pic/S2K907.jpg" alt="S2KBETLAOS Game">
+                <h2 class="image-title">🏆 Hình ảnh game</h2>
+                <img src="https://img2.pic.in.th/S2KVM22.png" alt="S2K-Vietnam Game">
             </div>
         </div>
     </div>
 
     <footer>
-        <p>© 2025 S2KBETLAOS | ຍິນດີໃຫ້ບໍລິການ 24/7</p>
+        <p>© 2025 S2K-Vietnam | Hân hạnh phục vụ 24/7</p>
         <p style="margin-top: 10px; font-size: 0.9rem; opacity: 0.7;">
-            🎯 ເກມຄາສິໂນອອນລາຍທີ່ດີທີ່ສຸດ | 🔒 ປອດໄພ ແລະ ເຊື່ອຖືໄດ້
+            🎯 Game casino trực tuyến tốt nhất | 🔒 An toàn và đáng tin cậy
         </p>
     </footer>
 
